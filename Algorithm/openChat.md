@@ -17,7 +17,7 @@ function solution(record) {
   splitRec.forEach(
     (el) =>
       el[0] !== "Change" &&
-      a.push(
+      answer.push(
         `${mapping.get(el[1])}님이 ${
           el[0] === "Enter" ? "들어왔습니다." : "나갔습니다."
         }`
